@@ -1,5 +1,5 @@
 import { Inject, Injectable } from "@nestjs/common";
-import { BaseService } from "src/base-service/base.service";
+import { BaseService } from "src/shared/base.service";
 import { UserProfileEntity } from "./entity/user-profile.entity";
 
 @Injectable()
